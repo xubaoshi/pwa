@@ -1,0 +1,19 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "pwa practice",
+  "main": "index.js",
+  "repository": "https://github.com/xubaoshi/pwa.git",
+  "author": "baoshi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "prod": "next start -p $PORT"
+  },
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
